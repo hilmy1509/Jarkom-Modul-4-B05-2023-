@@ -9,6 +9,7 @@
 
 ## Topologi GNS VLSM
 
+<img width="548" alt="Cuplikan layar 2023-12-06 200747" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/8a4a6c80-e5ae-4e19-8e3c-bc6fec6aa794">
 
 
 ## Prefix IP Kelompok B05
@@ -20,6 +21,20 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
 <img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/47057393-4831-4e5f-a549-b47381a136c2">
 
 ## CIDR
+
+CIDR, atau Classless Inter-Domain Routing, merupakan cara lebih efisien dalam mengalamatkan dan mengelompokkan alamat IP di Internet. Sebelum adanya CIDR, pengalamatan IP tergantung pada kelas, seperti kelas A, kelas B, dan kelas C, yang memiliki ukuran tetap untuk jaringan dan host, menyebabkan pemborosan alamat IP.
+
+CIDR menggantikan pendekatan kelas dengan memperkenalkan notasi baru yang memberikan fleksibilitas lebih besar dalam pengelompokan dan alokasi alamat IP. Notasi CIDR terdiri dari alamat IP dan prefiks (subnet mask) dalam format biner, seperti yang ditunjukkan pada contoh berikut ini
+
+```
+10.11.0.0 /24
+```
+
+Dalam contoh ini, "10.11.0.0" merupakan alamat jaringan, dan "/24" menandakan bahwa 24 bit pertama dari alamat ini digunakan sebagai netmask (subnet mask). Penggunaan CIDR memungkinkan administrator jaringan untuk menentukan ukuran subnet sesuai kebutuhan tanpa terikat oleh pembatasan kelas tradisional.
+
+Keunggulan utama CIDR terletak pada penghematan alamat IP dan pengurangan pemborosan. Dengan CIDR, tidak perlu lagi mengalokasikan blok alamat IP dengan ukuran yang tetap berdasarkan kelas. Sebagai contoh, jika suatu jaringan memerlukan 300 alamat IP, administrator dapat menggunakan CIDR untuk mengalokasikan subnet dengan panjang netmask yang sesuai tanpa harus memilih kelas yang lebih besar dari yang dibutuhkan.
+
+CIDR juga mendukung agregasi rute, memungkinkan penyederhanaan tabel routing di Internet. Dengan menggabungkan beberapa blok alamat IP ke dalam satu entri routing, CIDR membantu mengurangi ukuran tabel routing dan meningkatkan efisiensi dalam pengelolaan lalu lintas jaringan global.
 
 ## Penggabungan IP
 
@@ -68,8 +83,354 @@ Keunggulan utama `VLSM` adalah efisiensi penggunaan alamat `IP`, menghindari mem
 
 ## Konfigurasi
 
+#### Royal Capital (63 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.9.2
+	netmask 255.255.255.0
+	gateway 10.11.9.0
+```
 
+#### Wiilie Region (63 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.9.3
+	netmask 255.255.255.0
+	gateway 10.11.9.0
+```
 
+#### Denken
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.142
+	netmask 255.255.255.252
+	gateway 10.11.7.141
+
+auto eth1
+iface eth1 inet static
+	address 10.11.9.1
+	netmask 255.255.255.0
+ ```
+
+#### Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.9
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.11.7.25
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.11.7.141
+	netmask 255.255.255.252
+```
+
+#### Frieren
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.10
+	netmask 255.255.255.252
+	gateway 10.11.7.9
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.13
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.11.7.161
+	netmask 255.255.255.224
+```
+
+#### LakeKorridor
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.162
+	netmask 255.255.255.224
+	gateway 10.11.7.160
+```
+
+#### Flamme
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.14
+	netmask 255.255.255.252
+	gateway 10.11.7.13
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.17
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.11.12.1
+	netmask 255.255.252.0
+
+auto eth3
+iface eth3 inet static
+	address 10.11.7.21
+	netmask 255.255.255.252
+```
+
+#### Fern
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.18
+	netmask 255.255.255.252
+	gateway 10.11.7.17
+
+auto eth1
+iface eth1 inet static
+	address 10.11.24.1
+	netmask 255.255.248.0
+```
+
+#### Appetit Region (625 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.24.2
+	netmask 255.255.248.0
+	gateway 10.11.24.0
+```
+
+#### LaubHills(397 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.24.3
+	netmask 255.255.248.0
+	gateway 10.11.24.0
+```
+
+#### RohrRoad (1000 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.12.2
+	netmask 255.255.252.0
+	gateway 10.11.12.0
+```
+
+#### Himmel
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.22
+	netmask 255.255.255.252
+	gateway 10.11.7.21
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.145
+	netmask 255.255.255.248
+```
+
+#### SchwerMountains (5 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.146
+	netmask 255.255.255.248
+	gateway 10.11.7.144
+```
+
+#### Eisen
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.26
+	netmask 255.255.255.252
+	gateway 10.11.7.25
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.153
+	netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+	address 10.11.7.133
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.11.7.129
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 10.11.7.29
+	netmask 255.255.255.252
+```
+
+#### Stark
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.30
+	netmask 255.255.255.252
+	gateway 10.11.7.28
+```
+
+#### Lugner
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.130
+	netmask 255.255.255.252
+	gateway 10.11.7.129
+
+auto eth1
+iface eth1 inet static
+	address 10.11.8.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 10.11.16.1
+	netmask 255.255.252.0
+```
+
+#### TurkRegion (1000 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.16.2
+	netmask 255.255.252.0
+	gateway 10.11.16.0
+```
+
+#### GrobeForest (250 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.8.2
+	netmask 255.255.255.0
+	gateway 10.11.8.0
+```
+
+#### Richter
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.154
+	netmask 255.255.255.248
+	gateway 10.11.7.152
+```
+
+#### Revolte
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.155
+	netmask 255.255.255.248
+	gateway 10.11.7.152
+```
+
+#### Linie
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.134
+	netmask 255.255.255.252
+	gateway 10.11.7.133
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.137
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.11.10.1
+	netmask 255.255.254.0
+```
+
+#### GranzChannel (254 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.10.2
+	netmask 255.255.254.0
+	gateway 10.11.10.0
+```
+
+#### Lawine
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.138
+	netmask 255.255.255.252
+	gateway 10.11.7.137
+
+auto eth1
+iface eth1 inet static
+	address 10.11.7.193
+	netmask 255.255.255.192
+```
+
+#### BredtRegion (29 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.194
+	netmask 255.255.255.192
+	gateway 10.11.7.192
+```
+
+#### Heiter
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.7.195
+	netmask 255.255.255.192
+	gateway 10.11.7.193
+
+auto eth1
+iface eth1 inet static
+	address 10.11.20.1
+	netmask 255.255.252.0
+```
+
+#### Sein
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.20.3
+	netmask 255.255.252.0
+	gateway 10.11.20.0
+```
+
+#### RiegelCanyon (510 Host)
+```
+auto eth0
+iface eth0 inet static
+	address 10.11.20.2
+	netmask 255.255.252.0
+	gateway 10.11.20.0
+```
+
+## Routing
+
+<img width="465" alt="Cuplikan layar 2023-12-06 204757" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/6614acb1-1bcc-4248-94d5-0eeaa54fc876">
 
 
 
