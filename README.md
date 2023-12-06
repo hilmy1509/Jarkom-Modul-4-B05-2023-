@@ -24,7 +24,8 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
 
 ## Penggabungan IP
 
-<img width="699" alt="Cuplikan layar 2023-12-06 185134" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/fa06887c-91ec-47a1-8b91-a56b531912f6">
+<img width="589" alt="Cuplikan layar 2023-12-06 185310" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/65bfcaec-6927-4a70-b6c7-82e03763c64e">
+
 
 <img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/b36b8866-a591-4a01-9c48-5fb31e101a81">
 
