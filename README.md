@@ -32,6 +32,10 @@ Proses implementasi `VLSM` melibatkan pembagian jaringan besar menjadi `subnet` 
 
 Keunggulan utama `VLSM` adalah efisiensi penggunaan alamat `IP`, menghindari memberikan `subnet` besar kepada jaringan kecil yang hanya membutuhkan alamat `IP` sedikit. `VLSM` juga membantu mengurangi konsumsi alamat `IP` secara keseluruhan dalam jaringan, mendukung pertumbuhan dan perluasan jaringan secara efektif.
 
+## Pembagian IP
+
+<img width="631" alt="Cuplikan layar 2023-12-06 184239" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/377a1a84-5842-4d89-85bc-1283e055e1d6">
+
 
 
 
