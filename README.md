@@ -29,6 +29,9 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
 
 <img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/b36b8866-a591-4a01-9c48-5fb31e101a81">
 
+## Tree
+
+![CIDR_B05(1)](https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/7c20fa27-2615-49e3-ba19-ca66833c5296)
 
 
 ## Pembagian IP
@@ -44,6 +47,7 @@ Keunggulan utama `VLSM` adalah efisiensi penggunaan alamat `IP`, menghindari mem
 
 ## Tree
 
+![VLSM_B05(1)](https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/fd3b180a-6f4f-4ece-9f33-4fe479cc77f0)
 
 ## Pembagian IP
 
