@@ -1,5 +1,12 @@
 # Jarkom-Modul-4-B05-2023-
 
+### Praktikum Jaringan Komputer Modul 4 Tahun 2023
+
+Group Members:
+| NRP | Name |
+| ------ | ------ |
+|5025211028|Keysa Anadea Aqiva Ajie|
+|5025221202|Hilmy Septian Nursyekha|
 
 
 ## Topologi CPT CIDR
@@ -19,20 +26,15 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
 <img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/47057393-4831-4e5f-a549-b47381a136c2">
 
 ## CIDR
-
-CIDR, atau Classless Inter-Domain Routing, merupakan cara lebih efisien dalam mengalamatkan dan mengelompokkan alamat IP di Internet. Sebelum adanya CIDR, pengalamatan IP tergantung pada kelas, seperti kelas A, kelas B, dan kelas C, yang memiliki ukuran tetap untuk jaringan dan host, menyebabkan pemborosan alamat IP.
-
-CIDR menggantikan pendekatan kelas dengan memperkenalkan notasi baru yang memberikan fleksibilitas lebih besar dalam pengelompokan dan alokasi alamat IP. Notasi CIDR terdiri dari alamat IP dan prefiks (subnet mask) dalam format biner, seperti yang ditunjukkan pada contoh berikut ini
+CIDR adalah cara penulisan subnet mask dari sebuah sub network dengan cara mengubah notasi sub network dari desimal ke biner kemudian menghitung jumlah total nilai biner 1 yang ada. CIDR merupakan cara pengganti atau alternatif dalam klasifikasi alamat IP kelas A, B, C, D, hingga E. CIDR juga disebut sebagai SUBNETTING.
 
 ```
 10.11.0.0 /24
 ```
 
-Dalam contoh ini, "10.11.0.0" merupakan alamat jaringan, dan "/24" menandakan bahwa 24 bit pertama dari alamat ini digunakan sebagai netmask (subnet mask). Penggunaan CIDR memungkinkan administrator jaringan untuk menentukan ukuran subnet sesuai kebutuhan tanpa terikat oleh pembatasan kelas tradisional.
+IP 10.11.0.0 /24 merupakan alamat IP dengan subnet mask 255.255.255.0. Dalam notasi CIDR, /24 menunjukkan bahwa terdapat 24 bit yang digunakan untuk menentukan network address, sedangkan 8 bit sisanya digunakan untuk menentukan host address. Dengan demikian, terdapat 2^8 = 256 host address yang dapat digunakan pada subnet tersebut.
 
-Keunggulan utama CIDR terletak pada penghematan alamat IP dan pengurangan pemborosan. Dengan CIDR, tidak perlu lagi mengalokasikan blok alamat IP dengan ukuran yang tetap berdasarkan kelas. Sebagai contoh, jika suatu jaringan memerlukan 300 alamat IP, administrator dapat menggunakan CIDR untuk mengalokasikan subnet dengan panjang netmask yang sesuai tanpa harus memilih kelas yang lebih besar dari yang dibutuhkan.
-
-CIDR juga mendukung agregasi rute, memungkinkan penyederhanaan tabel routing di Internet. Dengan menggabungkan beberapa blok alamat IP ke dalam satu entri routing, CIDR membantu mengurangi ukuran tabel routing dan meningkatkan efisiensi dalam pengelolaan lalu lintas jaringan global.
+CIDR (Classless Inter-Domain Routing) adalah metode alokasi alamat IP yang meningkatkan efisiensi perutean data di internet. CIDR memungkinkan penghematan penggunaan alamat IP karena batasan-batasan yang ada pada penugasan kelas dihilangkan 1. CIDR juga memungkinkan untuk memecah-mecah subnet menjadi bagian yang lebih kecil atau lebih besar, memberikan alamat IP yang lebih spesifik untuk setiap jaringan atau perangkat, dan memungkinkan satu entri tabel perutean untuk supernet mewakili agregasi jaringan
 
 ## Penggabungan IP
 
