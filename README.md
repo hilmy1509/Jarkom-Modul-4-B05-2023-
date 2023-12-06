@@ -440,8 +440,12 @@ iface eth0 inet static
 #### Ping di Flamme menggunakan IP Lake Korridor
 <img width="521" alt="Cuplikan layar 2023-12-06 220032" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/75d5e784-7095-4e1e-93e5-25c4def16e40">
 
-#### Ping di Eisen menggunakan IP Appetit Region
+#### Ping di Eisen menggunakan IP AppetitRegion
 <img width="431" alt="Cuplikan layar 2023-12-06 220125" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/f640ccc5-fd20-46d9-b931-a43b9a6a4767">
 
+#### Ping di RoyalCapital menggunakan IP WilleRegion
+![WhatsApp Image 2023-12-06 at 21 49 51_c7962011](https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/ca261f94-c888-456d-a3b2-b520a1a7b0c2)
 
+#### Ping di LaubHills menggunakan IP AppetitRegion
+![WhatsApp Image 2023-12-06 at 21 49 51_1085b2bf](https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/177d8ab9-3bab-4188-89cc-55ef261dcbc7)
 
