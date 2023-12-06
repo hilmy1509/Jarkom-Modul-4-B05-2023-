@@ -38,6 +38,7 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
     <img width="317" alt="Cuplikan layar 2023-12-06 194716" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/bad79f40-d982-453b-b867-4a9de53779bb">
     <img width="313" alt="Cuplikan layar 2023-12-06 194727" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/7a383928-43ad-468d-8993-d0eab3552044">
     <img width="314" alt="Cuplikan layar 2023-12-06 194738" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/15ed35df-8075-4b53-9ec7-833396e3f977">
+    
 
 ![WhatsApp Image 2023-12-06 at 19 26 48_0d4fb629](https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/92ad9b66-bdb0-43b0-83ce-e8c3d4018162)
 
