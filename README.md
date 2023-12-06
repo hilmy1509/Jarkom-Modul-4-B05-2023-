@@ -8,8 +8,7 @@
 
 ## Topologi GNS VLSM
 
-<img width="548" alt="Cuplikan layar 2023-12-06 200747" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/8a4a6c80-e5ae-4e19-8e3c-bc6fec6aa794">
-
+<img width="548" alt="Cuplikan layar 2023-12-06 200747" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/4097d1b7-28aa-4410-9b81-e47acab84d6b">
 
 ## Prefix IP Kelompok B05
 Prefix IP yang kami gunakan adalah `10.11`
