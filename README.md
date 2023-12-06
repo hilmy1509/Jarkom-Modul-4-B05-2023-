@@ -21,6 +21,15 @@ Mengacu pada Modul 4 Jaringan Komputer, rute yang di dapat adalah sebagai beriku
 <img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/47057393-4831-4e5f-a549-b47381a136c2">
 
 ## CIDR
+
+## Penggabungan IP
+
+<img width="699" alt="Cuplikan layar 2023-12-06 185134" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/fa06887c-91ec-47a1-8b91-a56b531912f6">
+
+<img width="546" alt="Cuplikan layar 2023-12-06 153910" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/b36b8866-a591-4a01-9c48-5fb31e101a81">
+
+
+
 ## Pembagian IP
 
 <img width="668" alt="Cuplikan layar 2023-12-06 153404" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/4ebbac80-d01c-4fb3-9a7c-06bec466bb01">
@@ -32,9 +41,14 @@ Proses implementasi `VLSM` melibatkan pembagian jaringan besar menjadi `subnet` 
 
 Keunggulan utama `VLSM` adalah efisiensi penggunaan alamat `IP`, menghindari memberikan `subnet` besar kepada jaringan kecil yang hanya membutuhkan alamat `IP` sedikit. `VLSM` juga membantu mengurangi konsumsi alamat `IP` secara keseluruhan dalam jaringan, mendukung pertumbuhan dan perluasan jaringan secara efektif.
 
+## Tree
+
+
 ## Pembagian IP
 
 <img width="631" alt="Cuplikan layar 2023-12-06 184239" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/377a1a84-5842-4d89-85bc-1283e055e1d6">
+
+## Konfigurasi
 
 
 
