@@ -39,3 +39,4 @@ Keunggulan utama `VLSM` adalah efisiensi penggunaan alamat `IP`, menghindari mem
 
 
 
+
