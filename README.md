@@ -432,8 +432,16 @@ iface eth0 inet static
 
 <img width="465" alt="Cuplikan layar 2023-12-06 204757" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/6614acb1-1bcc-4248-94d5-0eeaa54fc876">
 
+## Testing
 
+#### Ping di Frieren menggunakan IP Aura
+<img width="519" alt="Cuplikan layar 2023-12-06 215948" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/86908f70-c05e-4139-8ea2-f5fad0a65a57">
 
+#### Ping di Flamme menggunakan IP Lake Korridor
+<img width="521" alt="Cuplikan layar 2023-12-06 220032" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/75d5e784-7095-4e1e-93e5-25c4def16e40">
+
+#### Ping di Eisen menggunakan IP Appetit Region
+<img width="431" alt="Cuplikan layar 2023-12-06 220125" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/f640ccc5-fd20-46d9-b931-a43b9a6a4767">
 
 
 
