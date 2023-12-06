@@ -2,7 +2,6 @@
 
 
 
-
 ## Topologi CPT CIDR
 
 <img width="554" alt="Cuplikan layar 2023-12-06 153507" src="https://github.com/hilmy1509/Jarkom-Modul-4-B05-2023-/assets/115638253/9c6b0f1e-2926-4c37-a791-231ff8e84db1">
